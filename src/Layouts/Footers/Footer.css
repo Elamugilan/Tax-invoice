@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.footer-navbar2 {
+  background-color: rgb(53, 53, 53);
+  color: white;
+}
+.nav2-icon2 {
+  color: white !important;
+}
+
+.slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.slider-content {
+  display: flex;
+  width: fit-content;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-item {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 14px;
+  min-width: 200px; /* Adjust based on your design */
+  text-align: center;
+}
+
+.nav2-icon2 {
+  margin-right: 8px;
+  font-size: 18px;
+}
